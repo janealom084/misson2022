@@ -1,0 +1,182 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Header css start */
+
+#mission {
+    color: crimson;
+}
+.mission-2022 {
+    font-size: 50px;
+    border-left: 5px solid black;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-family: serif;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(45deg, blue, red);
+    border-radius: 5px;
+}
+
+.header-section{
+display: flex;
+padding: 5%;
+}
+
+.half-header{
+   width: 50%; 
+   padding: 20px;
+}
+.half-header p{
+    padding-bottom: 30px;
+}
+.half-header img{
+    width: 80%;
+    padding-left: 70px;
+}
+.my-mission{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Header css end */
+
+/* Plans css start */
+.plans-items{
+display: flex;
+justify-content: space-around;
+padding: 0 4%;
+}
+
+.frist-plan{
+    width: 250px;
+    height: 350px;
+    background-color: #EDF5F6;
+    border-radius: 20px;
+    padding: 2%;
+    box-shadow: 5px 5px 5px crimson;
+    
+}
+.frist-plan img{
+    width: 60%;
+}
+
+.second-plan img {
+    margin-top: 10px;
+    
+
+}
+.third-plan img {
+    margin-top: 18px;
+
+}
+
+.second-plan{
+background-color: #FFEEEE;
+}
+
+.third-plan{
+background-color: #c5e4f7;
+}
+
+/* Plans css end */
+
+/* Development css start */
+
+.development {
+  display: flex;
+  padding: 100px 10%; 
+}
+
+.developmant-text{
+    width: 70%;
+    padding: 50px;
+}
+.developmant-img{
+    width: 30%
+}
+
+.developmant-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+
+/* Development css end */
+
+/* Contact me css start */
+
+.Contact-me{
+display: flex;
+justify-content:space-around;
+padding-bottom: 80px;
+}
+
+.contact-from h3{
+text-align: center;
+padding-top: 10px;
+}
+
+.contact-image img {
+    width: 500px;
+    height: 550px;
+    padding-left: 40px;
+    box-shadow: 0 0 20px 0 #999;
+}
+
+.contact-from {
+    width: 500px;
+    height: 550px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;  
+}
+
+form {
+    margin: 35px;
+}
+
+.input-filed{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-filed {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: crimson;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Contact me css end */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
